@@ -3,7 +3,7 @@ package org.example.tablice;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class liczeniePoIndexachParzystychINieparzystychWprowadzonychLiczb {
+public class LiczeniePoIndexachParzystychINieparzystychWprowadzonychLiczb {
 
     public static void main(String[] args) throws Exception {
 

@@ -1,23 +1,29 @@
 package org.example.oOP;
 
+/*
+Średnia arytmetyczna
+*/
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class sumaLiczbWkonsoli {
+public class SredniaArytmetyczna {
     public static void main(String[] args) throws Exception {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-        int suma = 0;
+        double sum = 0;
+        double howMany = 0;
 
         while (true) {
-            String command = reader.readLine();
-            if (command.equals("sumuj")) {
-                System.out.println(suma);
+            double number = Double.parseDouble(reader.readLine());
+
+            if (number == -1) {
+                System.out.println(sum / howMany);
                 return;
             }
-            int a = Integer.parseInt(command);
-            suma += a;
+            howMany++;
+            sum += number;
+
         }
     }
 }

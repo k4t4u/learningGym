@@ -1,6 +1,6 @@
 package org.example.oOP;
 
-public class tworzenieKlasIToString {
+public class TworzenieKlasIToString {
 
     public static void main(String[] args) {
 

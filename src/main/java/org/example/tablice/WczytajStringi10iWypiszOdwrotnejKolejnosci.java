@@ -3,7 +3,7 @@ package org.example.tablice;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class wczytajStringi10iWypiszOdwrotnejKolejnosci {
+public class WczytajStringi10iWypiszOdwrotnejKolejnosci {
     public static void main(String[] args) throws Exception {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
