@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class tworzyTabliceWczytujeZKonsoliIWyswietlaMax {
+public class TworzyTabliceWczytujeZKonsoliIWyswietlaMax {
     public static void main(String[] args) throws Exception {
         int[] tablica = inicjalizujTablice();
         int max = max(tablica);

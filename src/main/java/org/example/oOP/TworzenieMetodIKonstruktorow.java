@@ -1,6 +1,6 @@
 package org.example.oOP;
 
-public class tworzenieMetodIKonstruktorow {
+public class TworzenieMetodIKonstruktorow {
 
 
     String imie = null;

@@ -3,7 +3,7 @@ package org.example.tablice;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class tworzyTabliceDuzaIKopiujeDaneDoDwochMalychTablic {
+public class TworzyTabliceDuzaIKopiujeDaneDoDwochMalychTablic {
 
     public static void main(String[] args) throws Exception {
 

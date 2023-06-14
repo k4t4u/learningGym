@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class tworzyTabliceWczytuje5StringowIWyswietlaNajdluzszy {
+public class TworzyTabliceWczytuje5StringowIWyswietlaNajdluzszy {
 
     private static List<String> strings;
 
