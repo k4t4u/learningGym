@@ -23,5 +23,9 @@ public class HashMapBasic {
         for (Map.Entry<String, String> pair : fruits.entrySet()) {
             System.out.println(pair.getKey() + " - " + pair.getValue());
         }
+
+        for (String s : fruits.values()) {
+            System.out.println(s);
+        }
     }
 }
