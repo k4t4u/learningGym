@@ -1,4 +1,4 @@
-package org.example.petlaWhile;
+package org.example.petle;
 
 import java.io.BufferedReader;
 import java.io.IOException;
